@@ -56,8 +56,10 @@
 }
 
 
+
+
 @media (min-width:700px){
-    .skills{
-        width: 40%;
-    }
+  .skills{
+    width: 40%;
+}
 }

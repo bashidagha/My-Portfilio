@@ -1,9 +1,15 @@
 import React from "react";
+import { AnimationOnScroll } from "react-animation-on-scroll";
 import classes from "./skills.module.css";
 
 const Skills = () => {
   return (
-    <div className={`tile ${classes.skills}`}>
+    <AnimationOnScroll
+      animateIn="animate__tada"
+      animateOnce={true}
+      initiallyVisible={true}
+      className={`tile ${classes.skills}`}
+    >
       <h4>Front end</h4>
 
       <div className={`${classes["skill-item"]}`}>
@@ -40,7 +46,7 @@ const Skills = () => {
           <div />
         </div>
       </div>
-    </div>
+    </AnimationOnScroll>
   );
 };
 
