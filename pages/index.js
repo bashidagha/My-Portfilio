@@ -6,18 +6,22 @@ import Skills from "../components/Layout/Skills";
 import Hobbies from "../components/Layout/Hobbies";
 import Blog from "../components/Layout/Blog";
 import Exprience from "../components/Layout/Exprience";
+import ProjectsHeader from "../components/Layout/ProjectsHeader";
+import Projects from "../components/Layout/Projects";
 
 const Home = () => {
   return (
     <Card>
       <PersonalInfo />
-        <div className="contents">
-          <Skills />
+      <div className="contents">
+        <Skills />
 
-          <Blog />
-          <Hobbies />
-          <Exprience />
-        </div>
+        <Blog />
+        <Hobbies />
+        <Exprience />
+      </div>
+      <ProjectsHeader />
+      <Projects />
     </Card>
   );
 };

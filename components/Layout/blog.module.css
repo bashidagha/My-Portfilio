@@ -24,6 +24,11 @@
   margin-top: 0.5rem;
 }
 
+.blog a{
+    margin-top: 2rem;
+    text-decoration: underline;
+}
+
 
 @media (min-width: 700px) {
   .blog {

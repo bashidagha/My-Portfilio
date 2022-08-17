@@ -21,11 +21,6 @@ const Hobbies = () => {
 
       <h4>Gaming</h4>
       <p>Quisque feugiat malesuada molestie.</p>
-
-      <img src="/image1.jpg" alt="image"></img>
-
-      <h4>Gaming</h4>
-      <p>Quisque feugiat malesuada molestie.</p>
     </AnimationOnScroll>
   );
 };
