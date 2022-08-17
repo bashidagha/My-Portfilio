@@ -2,10 +2,8 @@ import React from "react";
 
 const Icon = (props) => {
   switch (props.name) {
-    case "menu":
-      return (
-        <i className="bi bi-list"></i>
-      );
+    case "envelope":
+      return <i className="bi bi-envelope-fill"></i>;
 
     default:
       return <></>;

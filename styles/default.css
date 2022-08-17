@@ -1,50 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap");
 
-
-@font-face {
-  font-family: IRANSans;
-  src: url('../assets/fonts/IRANSansWeb_Medium.woff');
-  font-weight: 500;
-  font-style: normal;
+:root {
+  ---color-dark: #333;
+  ---color-semi-dark: #4f4f4f;
+  ---color-gray: #828282;
 }
-
-@font-face {
-  font-family: IRANSans;
-  src: url('../assets/fonts/IRANSansWeb_Bold.woff');
-  font-weight: 700;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: IRANSans;
-  src: url('../assets/fonts/IRANSansWeb_Light.woff');
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: IRANSans;
-  src: url('../assets/fonts/IRANSansWeb_UltraLight.woff');
-  font-weight: 200;
-  font-style: normal;
-}
-
-
 
 html {
   font-size: 62.5%;
-  padding: 0;
-  margin: 0;
-  direction: rtl;
 }
 
 body {
   margin: 0;
-  padding: 2rem 4rem;
-  font-family: IRANSans, sans-serif;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
   font-weight: 500;
-  font-size: 1.4rem;
-  background-color: $background-color;
-  color: $text-gray;
+  font-size: 1.8rem;
+  background-color: #f2f2f2;
+  color: var(---color-gray);
 }
 
 a {
@@ -52,7 +25,9 @@ a {
   text-decoration: none;
 }
 
-* {
+*,
+*::after,
+*::before {
   box-sizing: border-box;
 }
 
@@ -69,14 +44,11 @@ img {
   max-width: 100%;
 }
 
-@media screen and (max-width: 576px) {
-  body {
-    padding: 1.5rem 2.5rem;
-  }
-}
-
-@media screen and (max-width: 992px) and (min-width: 577px) {
-  body {
-    padding: 1.8rem 3.2rem;
-  }
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0;
 }
