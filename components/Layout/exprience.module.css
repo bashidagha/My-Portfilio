@@ -1,5 +1,47 @@
+.exprience {
+  align-self: flex-start;
+}
+
+.exprience h4{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: var(---color-semi-dark);
+    margin-bottom: 5rem;
+}
+
+.exprience-item {
+  display: flex;
+  margin: 2rem 0;
+  gap: 1.5rem;
+}
+
+.exprience-item p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.exprience-item h5 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(---color-dark);
+  margin: 1rem 0 2rem 0;
+}
+
+.exprience-item img {
+  margin-top: 1rem;
+  max-width: 30%;
+  align-self: flex-start;
+}
+
 @media (min-width: 700px) {
   .exprience {
     width: 58%;
+  }
+
+  .exprience-item {
+    gap: 2rem;
   }
 }
