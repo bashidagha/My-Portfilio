@@ -1,3 +1,3 @@
 My Portfolio
 
-design powered by <a href="devChallenge.co">devChallenge.co</a>
+Design powered by <a href="https://devchallenges.io/">https://devchallenges.io/</a>
