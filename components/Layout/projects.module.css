@@ -3,7 +3,7 @@
   font-size: 18px;
   line-height: 22px;
   color: var(---color-semi-dark);
-  margin-bottom: 3rem;
+  /* margin-bottom: 3rem; */
 }
 
 .header__item {
@@ -103,6 +103,16 @@
 
 .pagination {
   margin-bottom: 3rem;
+}
+
+.active {
+  color: white;
+  background-color: #2f80ed;
+  border-color: white;
+}
+
+.disable{
+  pointer-events: none;
 }
 
 @media (min-width: 700px) {

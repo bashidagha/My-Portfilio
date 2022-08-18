@@ -29,8 +29,18 @@ const Projects = () => {
                 <p>{project.description}</p>
 
                 <div className={classes.project__links}>
-                  <a href={project.demo}>Demo</a>
-                  <a href={project.code}>Code</a>
+                  <a
+                    className={!project.demo ? classes.disable : ""}
+                    href={project.demo ? project.demo : ""}
+                  >
+                    Demo
+                  </a>
+                  <a
+                    className={!project.code ? classes.disable : ""}
+                    href={project.code ? project.code : ""}
+                  >
+                    Code
+                  </a>
                 </div>
               </div>
             );
@@ -41,7 +51,9 @@ const Projects = () => {
         {/* <div className={classes.page}>{"<"}</div> */}
         {pagesArray.map((page) => (
           <div
-            className={classes.page}
+            className={`${classes.page} ${
+              currentPage === page + 1 ? classes.active : ""
+            }`}
             key={page}
             onClick={() => setCurrentPage(page + 1)}
           >
