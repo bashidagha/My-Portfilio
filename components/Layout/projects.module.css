@@ -6,10 +6,10 @@
   margin-bottom: 3rem;
 }
 
-.header__item{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
+.header__item {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
 
 .header__item a {
@@ -25,9 +25,36 @@
   margin-bottom: 0.5rem;
 }
 
+.page {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: var(---color-semi-dark);
+  border: 1px solid #4f4f4f;
+  border-radius: 4px;
+  text-align: center;
+  width: 3.6rem;
+  height: 3.6rem;
+  display: inline-block;
+  padding: 1rem;
+}
+
+.page + .page{
+  margin-left: 1rem;
+}
+
+.pagination{
+  text-align: center;
+}
+
 @media (min-width: 700px) {
-  .projects {
-      display: flex;
-      justify-content: space-between;
+  .projects__container {
+    display: flex;
+    justify-content: space-between;
   }
+
+  .pagination{
+    text-align: right;
+  }
+
 }
