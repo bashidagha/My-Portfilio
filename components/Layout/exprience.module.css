@@ -37,9 +37,7 @@
 }
 
 @media (min-width: 700px) {
-  .exprience {
-    width: 58%;
-  }
+
 
   .exprience-item {
     gap: 2rem;

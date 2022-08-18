@@ -10,22 +10,54 @@ const Blog = () => {
       animatePreScroll={false}
       className={`tile ${classes.blog}`}
     >
-      <div className={classes.blog__top}>
+      <p>Blog</p>
+      <div className={classes.blog__item}>
+      
         <div>
-          <p>Blog</p>
+          
           <h4>How to organize your CSS</h4>
+          <p>
+            In this article I tell the story about Proin eu justo sit amet lacus
+            bibendum tincidunt. Vivamus non volutpat nisl, a luctus mi. Donec
+            aliquam est dui, vel vestibulum diam sollicitudin id. Quisque
+            feugiat malesuada molestie.
+          </p>
         </div>
         <img src="/image1.jpg" alt="image"></img>
       </div>
 
-      <p>
-        In this article I tell the story about Proin eu justo sit amet lacus
-        bibendum tincidunt. Vivamus non volutpat nisl, a luctus mi. Donec
-        aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat
-        malesuada molestie.
-      </p>
+      <div className={classes.blog__item}>
+      
+        <div>
+          
+          <h4>How to organize your CSS</h4>
+          <p>
+            In this article I tell the story about Proin eu justo sit amet lacus
+            bibendum tincidunt. Vivamus non volutpat nisl, a luctus mi. Donec
+            aliquam est dui, vel vestibulum diam sollicitudin id. Quisque
+            feugiat malesuada molestie.
+          </p>
+        </div>
+        <img src="/image1.jpg" alt="image"></img>
+      </div>
 
-      <a href="https://virgool.io">virgool.io</a>
+      <div className={classes.blog__item}>
+      
+        <div>
+          
+          <h4>How to organize your CSS</h4>
+          <p>
+            In this article I tell the story about Proin eu justo sit amet lacus
+            bibendum tincidunt. Vivamus non volutpat nisl, a luctus mi. Donec
+            aliquam est dui, vel vestibulum diam sollicitudin id. Quisque
+            feugiat malesuada molestie.
+          </p>
+        </div>
+        <img src="/image1.jpg" alt="image"></img>
+      </div>
+
+      <a href="https://virgool.io">More Items &raquo;</a>
+
     </AnimationOnScroll>
   );
 };

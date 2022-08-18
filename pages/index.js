@@ -13,13 +13,20 @@ const Home = () => {
   return (
     <Card>
       <PersonalInfo />
-      <div className="contents">
-        <Skills />
 
-        <Blog />
-        <Hobbies />
-        <Exprience />
+      <div className="contents">
+        <div className="side1">
+          <Skills />
+          <Hobbies />
+        </div>
+
+        <div className="side2">
+          <Blog />
+
+          <Exprience />
+        </div>
       </div>
+
       <ProjectsHeader />
       <Projects />
     </Card>

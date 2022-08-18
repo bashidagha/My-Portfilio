@@ -11,9 +11,18 @@
 @media (min-width: 700px) {
   .contents {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
   }
+
+  .side1{
+    width: 33%;
+  }
+
+  .side2{
+    width: 66%;
+  }
+
+  
 
   .animate__animated {
     animation: none !important;

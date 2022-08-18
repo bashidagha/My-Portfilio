@@ -55,11 +55,3 @@
     width: 60%; 
 }
 
-
-
-
-@media (min-width:700px){
-  .skills{
-    width: 40%;
-}
-}

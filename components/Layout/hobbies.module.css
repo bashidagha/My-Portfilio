@@ -30,8 +30,3 @@
   width: 100%;
 }
 
-@media (min-width: 700px) {
-  .hobbies {
-    width: 40%;
-  }
-}
