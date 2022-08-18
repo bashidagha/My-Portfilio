@@ -29,7 +29,7 @@ const Exprience = () => {
         <img src="bug.jpg" alt="bug"></img>
 
         <div>
-          <p>March 2022 - Current</p>
+          <p>March 2022 - July 2022</p>
           <h5>Frontend developer</h5>
           <p>
             Intership frontend developer worked with XAdobe, Docker, Bootstrap,

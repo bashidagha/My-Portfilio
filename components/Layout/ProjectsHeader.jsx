@@ -11,12 +11,13 @@ const ProjectsHeader = () => {
       className={`tile ${classes.projects__header}`}
     >
 
-        <p>Projects (3)</p>
+        <p>Projects (7)</p>
 
         <div className={classes.header__item}>
             <a>React</a>
             <a>Nextjs</a>
-            <a>HTML/CSS</a>
+            <a>Typescript</a>
+            <a>REST‌ API</a>
             <a>Wordpress</a>
         </div>
         

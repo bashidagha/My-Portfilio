@@ -12,37 +12,29 @@ const Blog = () => {
     >
       <p>Blog</p>
       <div className={classes.blog__item}>
-      
         <div>
-          
           <h4>React Router v6</h4>
           <p>
-            In this article I tell the story about Proin eu justo sit amet lacus
-            bibendum tincidunt. Vivamus non volutpat nisl, a luctus mi. Donec
-            aliquam est dui, vel vestibulum diam sollicitudin id. Quisque
-            feugiat malesuada molestie.
+            In this article I tell about new features in react router v6 with an
+            example step by step
           </p>
         </div>
         <img src="/image1.jpg" alt="image"></img>
       </div>
 
       <div className={classes.blog__item}>
-      
         <div>
-          
           <h4>React Redux</h4>
           <p>
-            In this article I tell the story about Proin eu justo sit amet lacus
-            bibendum tincidunt. Vivamus non volutpat nisl, a luctus mi. Donec
-            aliquam est dui, vel vestibulum diam sollicitudin id. Quisque
-            feugiat malesuada molestie.
+            In this article I tell about building a ecommerce website
+            functionality with redux and explore new features of redux and redux
+            toolkit
           </p>
         </div>
         <img src="/b2.webp" alt="image"></img>
       </div>
 
       <a href="https://virgool.io/@m_21642669">More Items &raquo;</a>
-
     </AnimationOnScroll>
   );
 };

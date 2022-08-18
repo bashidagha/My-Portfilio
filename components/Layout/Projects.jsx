@@ -29,8 +29,8 @@ const Projects = () => {
                 <p>{project.description}</p>
 
                 <div className={classes.project__links}>
-                  <a>Demo</a>
-                  <a>Code</a>
+                  <a href={project.demo}>Demo</a>
+                  <a href={project.code}>Code</a>
                 </div>
               </div>
             );
@@ -38,7 +38,7 @@ const Projects = () => {
       </div>
 
       <div className={classes.pagination}>
-        <div className={classes.page}>{"<"}</div>
+        {/* <div className={classes.page}>{"<"}</div> */}
         {pagesArray.map((page) => (
           <div
             className={classes.page}
@@ -48,7 +48,7 @@ const Projects = () => {
             {page + 1}
           </div>
         ))}
-        <div className={classes.page}>{">"}</div>
+        {/* <div className={classes.page}>{">"}</div> */}
       </div>
     </AnimationOnScroll>
   );

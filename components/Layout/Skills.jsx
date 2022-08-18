@@ -95,21 +95,21 @@ const Skills = (props) => {
         </div>
 
         <div className={`${classes["skill-item"]}`}>
-          <p>REST‌ API/ Docker/ Git</p>
+          <p>REST‌ API / Docker / Git</p>
           <div className={`${classes.progress}`}>
             <div />
           </div>
         </div>
 
         <div className={`${classes["skill-item"]}`}>
-          <p>Wordpress/Seo</p>
+          <p>Wordpress / Seo</p>
           <div className={`${classes.progress}`}>
             <div />
           </div>
         </div>
 
         <div className={`${classes["skill-item"]}`}>
-          <p>Nodejs(Backend)</p>
+          <p>Nodejs (Backend)</p>
           <div className={`${classes.progress}`}>
             <div />
           </div>
@@ -126,7 +126,7 @@ const Skills = (props) => {
       className={`tile ${classes.skills}`}
     >
       {props.type!=="2" && <ComponentA/>}
-      {props.type==="2" && <ComponentB/>}
+      {props.type==="2" && <div className={`${classes["other__skills"]}`}><ComponentB/></div>}
       
     </AnimationOnScroll>
   );

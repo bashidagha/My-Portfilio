@@ -50,6 +50,9 @@
 .project__item img {
   border-radius: 12px;
   margin-bottom: 1rem;
+  max-height: 20rem;
+  width: 100%;
+  object-fit: cover;
 }
 
 .project__item span {
@@ -93,9 +96,13 @@
   margin-bottom: 1rem;
 }
 
-.project__links a:nth-child(1){
+.project__links a:nth-child(1) {
   color: white;
   background-color: #2f80ed;
+}
+
+.pagination {
+  margin-bottom: 3rem;
 }
 
 @media (min-width: 700px) {
@@ -110,5 +117,9 @@
 
   .project__item {
     width: 33%;
+  }
+
+  .project__item img {
+    height: 20rem;
   }
 }
