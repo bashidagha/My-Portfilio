@@ -20,7 +20,7 @@ const Projects = () => {
           .slice((currentPage - 1) * 3, currentPage * 3)
           .map((project) => {
             return (
-              <div className={`tile ${classes.project__item}`}>
+              <div className={`tile ${classes.project__item}`} key={project.id}>
                 <img src={project.photo} alt={project.title}></img>
                 {project.hash.map((hash) => (
                   <span>#{hash}&nbsp;&nbsp;</span>
