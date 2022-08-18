@@ -28,5 +28,14 @@
   border-radius: 12px;
   max-height: 20rem;
   width: 100%;
+  object-fit: cover;
 }
 
+
+@media (min-width: 700px) {
+  .hobbies__container{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+}

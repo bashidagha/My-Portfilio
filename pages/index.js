@@ -17,7 +17,8 @@ const Home = () => {
       <div className="contents">
         <div className="side1">
           <Skills />
-          <Hobbies />
+          <Skills type="2"/>
+          
         </div>
 
         <div className="side2">
@@ -26,6 +27,8 @@ const Home = () => {
           <Exprience />
         </div>
       </div>
+
+      <Hobbies />
 
       <ProjectsHeader />
       <Projects />

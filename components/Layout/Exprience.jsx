@@ -16,11 +16,11 @@ const Exprience = () => {
         <img src="pantherx.png" alt="pantherx"></img>
 
         <div>
-          <p>Feb 2017 - Current</p>
-          <h5>Front-end developer</h5>
+          <p>February 2021 - January 2021</p>
+          <h5>Back-end developer</h5>
           <p>
-            Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque
-            feugiat malesuada molestie.
+            Program c++ plugin for Guix OS, Design patterns, Protobuf, Gitlab,
+            User and Kernel space linux
           </p>
         </div>
       </div>
@@ -29,14 +29,16 @@ const Exprience = () => {
         <img src="bug.jpg" alt="bug"></img>
 
         <div>
-          <p>Aug 2016 - Feb 2018</p>
-          <h5>Full-stack developer</h5>
+          <p>March 2022 - Current</p>
+          <h5>Frontend developer</h5>
           <p>
-            Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque
-            feugiat malesuada molestie.
+            Intership frontend developer worked with XAdobe, Docker, Bootstrap,
+            React, Nextjs
           </p>
         </div>
       </div>
+
+      
     </AnimationOnScroll>
   );
 };

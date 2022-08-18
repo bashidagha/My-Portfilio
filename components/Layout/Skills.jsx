@@ -13,35 +13,49 @@ const Skills = () => {
       <h4>Front end</h4>
 
       <div className={`${classes["skill-item"]}`}>
-        <p>React</p>
+        <p>React / Redux</p>
         <div className={`${classes.progress}`}>
           <div />
         </div>
       </div>
 
       <div className={`${classes["skill-item"]}`}>
-        <p>HTML/CSS</p>
+        <p>React Router/ hooks</p>
         <div className={`${classes.progress}`}>
           <div />
         </div>
       </div>
 
       <div className={`${classes["skill-item"]}`}>
-        <p>Javascript</p>
+        <p>HTML / CSS / JS</p>
         <div className={`${classes.progress}`}>
           <div />
         </div>
       </div>
 
       <div className={`${classes["skill-item"]}`}>
-        <p>Redux</p>
+        <p>Responsive Design</p>
         <div className={`${classes.progress}`}>
           <div />
         </div>
       </div>
 
       <div className={`${classes["skill-item"]}`}>
-        <p>React Router</p>
+        <p>Nextjs</p>
+        <div className={`${classes.progress}`}>
+          <div />
+        </div>
+      </div>
+
+      <div className={`${classes["skill-item"]}`}>
+        <p>Sass</p>
+        <div className={`${classes.progress}`}>
+          <div />
+        </div>
+      </div>
+
+      <div className={`${classes["skill-item"]}`}>
+        <p>Bootstrap</p>
         <div className={`${classes.progress}`}>
           <div />
         </div>
