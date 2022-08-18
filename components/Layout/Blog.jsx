@@ -15,7 +15,7 @@ const Blog = () => {
       
         <div>
           
-          <h4>How to organize your CSS</h4>
+          <h4>React Router v6</h4>
           <p>
             In this article I tell the story about Proin eu justo sit amet lacus
             bibendum tincidunt. Vivamus non volutpat nisl, a luctus mi. Donec
@@ -30,7 +30,7 @@ const Blog = () => {
       
         <div>
           
-          <h4>How to organize your CSS</h4>
+          <h4>React Redux</h4>
           <p>
             In this article I tell the story about Proin eu justo sit amet lacus
             bibendum tincidunt. Vivamus non volutpat nisl, a luctus mi. Donec
@@ -38,25 +38,10 @@ const Blog = () => {
             feugiat malesuada molestie.
           </p>
         </div>
-        <img src="/image1.jpg" alt="image"></img>
+        <img src="/b2.webp" alt="image"></img>
       </div>
 
-      <div className={classes.blog__item}>
-      
-        <div>
-          
-          <h4>How to organize your CSS</h4>
-          <p>
-            In this article I tell the story about Proin eu justo sit amet lacus
-            bibendum tincidunt. Vivamus non volutpat nisl, a luctus mi. Donec
-            aliquam est dui, vel vestibulum diam sollicitudin id. Quisque
-            feugiat malesuada molestie.
-          </p>
-        </div>
-        <img src="/image1.jpg" alt="image"></img>
-      </div>
-
-      <a href="https://virgool.io">More Items &raquo;</a>
+      <a href="https://virgool.io/@m_21642669">More Items &raquo;</a>
 
     </AnimationOnScroll>
   );

@@ -16,8 +16,10 @@ const PersonalInfo = () => {
         <p className={classes.email}>farshidk49@gmail.com</p>
 
         <p className={classes.about}>
-          Self-motivated developer, who is willing to learn and create
-          outstanding UI applications.
+          In my work path from the world of embedded
+          systems to web programming, the most important principle that I
+          cultivated in myself is persistence and continuous learning and
+          practice, which I think I know how to do well.
         </p>
       </div>
     </div>
