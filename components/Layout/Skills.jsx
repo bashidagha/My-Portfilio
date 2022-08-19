@@ -114,6 +114,13 @@ const Skills = (props) => {
             <div />
           </div>
         </div>
+
+        <div className={`${classes["skill-item"]}`}>
+          <p>Scrum Master</p>
+          <div className={`${classes.progress}`}>
+            <div />
+          </div>
+        </div>
       </>
     );
   };
