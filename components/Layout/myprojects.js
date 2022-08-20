@@ -77,7 +77,7 @@ export const myprojects = [
     photo: "p9.webp",
   },
   {
-    id: 8,
+    id: 9,
     hash: ["HTML/CSS", "Mobile first"],
     title: "Recipe Blog",
     description:
