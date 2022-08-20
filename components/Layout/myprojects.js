@@ -69,6 +69,16 @@ export const myprojects = [
   {
     id: 8,
     hash: ["HTML/CSS", "Mobile first"],
+    title: "Checkout Page",
+    description:
+      "In this project, I work with HTML and CSS to create a responsive page. This page is similiar with a page. The design is from devchallenge.io",
+    demo: "https://bashidagha.github.io/checkout-page-master/",
+    code: "https://github.com/bashidagha/checkout-page-master",
+    photo: "p9.webp",
+  },
+  {
+    id: 8,
+    hash: ["HTML/CSS", "Mobile first"],
     title: "Recipe Blog",
     description:
       "In this project, I work with HTML and CSS to create a responsive page. This page is similiar with a page. The design is from devchallenge.io",
