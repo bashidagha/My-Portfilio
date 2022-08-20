@@ -13,12 +13,12 @@ const Hobbies = () => {
       <h3>Hobbies</h3>
 
       <div className={classes.hobbies__container}>
-        <div>
+        {/* <div>
           <img src="/h1.webp" alt="image"></img>
 
           <h4>Film</h4>
           <p>Action, Romance and even Hindi!</p>
-        </div>
+        </div> */}
 
         <div>
           <img src="/h2.jpg" alt="image"></img>
