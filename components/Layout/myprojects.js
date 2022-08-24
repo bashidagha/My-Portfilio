@@ -47,6 +47,16 @@ export const myprojects = [
     photo: "p5.png",
   },
   {
+    id: 11,
+    hash: ["React", "REST API", "Redux", "Mobile first"],
+    title: "Weather API app",
+    description:
+      "In this project, I work with React and Redux toolkit to get data from REST API and use mobile first design for UI. The design is from devchallenge.io",
+    demo: "https://weather-app-bashidagha.vercel.app/",
+    code: "https://github.com/bashidagha/weather-app",
+    photo: "p11.webp",
+  },
+  {
     id: 6,
     hash: ["React", "REST API", "Typescript", "Bootstrap"],
     title: "URL Shortened Website",
