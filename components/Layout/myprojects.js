@@ -27,6 +27,26 @@ export const myprojects = [
     photo: "p3.png",
   },
   {
+    id: 11,
+    hash: ["React", "REST API", "Redux", "Mobile first"],
+    title: "Weather API app",
+    description:
+      "In this project, I work with React and Redux toolkit to get data from REST API and use mobile first design for UI. The design is from devchallenge.io",
+    demo: "https://weather-app-bashidagha.vercel.app/",
+    code: "https://github.com/bashidagha/weather-app",
+    photo: "p11.webp",
+  },
+  {
+    id: 12,
+    hash: ["Nextjs", "REST API", "Firebase", "Responsive"],
+    title: "My Unsplash",
+    description:
+      "In this project, I built a fullstack website with firebase database + Nextjs that work as online gallery, You can add/remove images. The design is from devchallenge.io",
+    demo: "https://my-unsplash-master-kappa.vercel.app/",
+    code: "https://github.com/bashidagha/my-unsplash-master",
+    photo: "p12.webp",
+  },
+  {
     id: 4,
     hash: ["React", "Sass", "Bootstrap", "Figma"],
     title: "GPT3 Website",
@@ -46,16 +66,7 @@ export const myprojects = [
     code: "https://rest-countries-api-kohl.vercel.app/",
     photo: "p5.png",
   },
-  {
-    id: 11,
-    hash: ["React", "REST API", "Redux", "Mobile first"],
-    title: "Weather API app",
-    description:
-      "In this project, I work with React and Redux toolkit to get data from REST API and use mobile first design for UI. The design is from devchallenge.io",
-    demo: "https://weather-app-bashidagha.vercel.app/",
-    code: "https://github.com/bashidagha/weather-app",
-    photo: "p11.webp",
-  },
+
   {
     id: 6,
     hash: ["React", "REST API", "Typescript", "Bootstrap"],
