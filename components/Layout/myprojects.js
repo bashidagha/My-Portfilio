@@ -57,6 +57,16 @@ export const myprojects = [
     photo: "p4.png",
   },
   {
+    id: 15,
+    hash: ["Nextjs", "Fullstack", "Firebase", "Responsive Design", "SSR"],
+    title: "Catwiki",
+    description:
+      "Fantastic fullstack app that written in Nextjs and used SSR",
+    demo: "https://cat-wiki-master-tau.vercel.app/",
+    code: "https://github.com/bashidagha/cat-wiki-master",
+    photo: "p13.png",
+  },
+  {
     id: 5,
     hash: ["Nextjs", "REST API", "Typescript"],
     title: "Rest Countries API",
