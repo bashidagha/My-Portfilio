@@ -8,15 +8,16 @@ export const myprojects = [
     photo: "p7.png",
   },
   {
-    id: 2,
-    hash: ["React", "Context API", "Mobile first"],
-    title: "Windbnb",
+    id: 15,
+    hash: ["Nextjs", "Fullstack", "Firebase", "Responsive Design", "SSR"],
+    title: "Catwiki",
     description:
-      "In this project, I work with HTML and CSS to create a mobile first page. Also use context hook to take care of states",
-    demo: "https://windbnb-kappa.vercel.app/",
-    code: "https://github.com/bashidagha/windbnb",
-    photo: "p2.webp",
+      "Fantastic fullstack app that written in Nextjs and used SSR",
+    demo: "https://cat-wiki-master-tau.vercel.app/",
+    code: "https://github.com/bashidagha/cat-wiki-master",
+    photo: "p13.webp",
   },
+  
   {
     id: 3,
     hash: ["PHP", "Wordpress", "Mobile first", "Bootstrap", "SEO"],
@@ -47,6 +48,16 @@ export const myprojects = [
     photo: "p12.webp",
   },
   {
+    id: 2,
+    hash: ["React", "Context API", "Mobile first"],
+    title: "Windbnb",
+    description:
+      "In this project, I work with HTML and CSS to create a mobile first page. Also use context hook to take care of states",
+    demo: "https://windbnb-kappa.vercel.app/",
+    code: "https://github.com/bashidagha/windbnb",
+    photo: "p2.webp",
+  },
+  {
     id: 4,
     hash: ["React", "Sass", "Bootstrap", "Figma"],
     title: "GPT3 Website",
@@ -56,16 +67,7 @@ export const myprojects = [
     code: "https://github.com/bashidagha/gpt3_bashidagha",
     photo: "p4.png",
   },
-  {
-    id: 15,
-    hash: ["Nextjs", "Fullstack", "Firebase", "Responsive Design", "SSR"],
-    title: "Catwiki",
-    description:
-      "Fantastic fullstack app that written in Nextjs and used SSR",
-    demo: "https://cat-wiki-master-tau.vercel.app/",
-    code: "https://github.com/bashidagha/cat-wiki-master",
-    photo: "p13.png",
-  },
+  
   {
     id: 5,
     hash: ["Nextjs", "REST API", "Typescript"],
