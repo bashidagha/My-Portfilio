@@ -21,13 +21,16 @@ const Projects = () => {
           .map((project) => {
             return (
               <div className={`tile ${classes.project__item}`} key={project.id}>
-                <img src={project.photo} alt={project.title}></img>
-                {project.hash.map((hash) => (
-                  <span key={Math.random()}>#{hash}&nbsp;&nbsp;</span>
-                ))}
-                <h3>{project.title}</h3>
-                <p>{project.description}</p>
+                <div>
+                  <img src={project.photo} alt={project.title}></img>
 
+                  {project.hash.map((hash) => (
+                    <span key={Math.random()}>#{hash}&nbsp;&nbsp;</span>
+                  ))}
+
+                  <h3>{project.title}</h3>
+                  <p>{project.description}</p>
+                </div>
                 <div className={classes.project__links}>
                   <a
                     className={!project.demo ? classes.disable : ""}

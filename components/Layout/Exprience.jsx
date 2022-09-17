@@ -12,46 +12,48 @@ const Exprience = () => {
     >
       <h4>Experiences</h4>
 
-      <div className={classes["exprience-item"]}>
-        <img src="pantherx.png" alt="pantherx"></img>
+      <table className={classes["exprience-item"]}>
+        <tbody>
+          <tr>
+            <td>
+              <img src="pantherx.png" alt="pantherx"></img>
+            </td>
+            <td>
+              <p>February 2021 - January 2021</p>
+              <h5>Back-end developer</h5>
+              <p>
+                Program c++ plugin for Guix OS, Design patterns, Protobuf,
+                Gitlab, User and Kernel space linux
+              </p>
+            </td>
+          </tr>
 
-        <div>
-          <p>February 2021 - January 2021</p>
-          <h5>Back-end developer</h5>
-          <p>
-            Program c++ plugin for Guix OS, Design patterns, Protobuf, Gitlab,
-            User and Kernel space linux
-          </p>
-        </div>
-      </div>
+          <tr>
+            <td>
+              <img src="bug.jpg" alt="bug"></img>
+            </td>
+            <td>
+              <p>March 2022 - July 2022</p>
+              <h5>Frontend developer</h5>
+              <p>
+                Intership frontend developer worked with XAdobe, Docker,
+                Bootstrap, React, Nextjs
+              </p>
+            </td>
+          </tr>
 
-      <div className={classes["exprience-item"]}>
-        <img src="bug.jpg" alt="bug"></img>
-
-        <div>
-          <p>March 2022 - July 2022</p>
-          <h5>Frontend developer</h5>
-          <p>
-            Intership frontend developer worked with XAdobe, Docker, Bootstrap,
-            React, Nextjs
-          </p>
-        </div>
-      </div>
-
-
-      <div className={classes["exprience-item"]}>
-        <img src="rayanesh.png" alt="rayanesh"></img>
-
-        <div>
-          <p>September 2022 - Now</p>
-          <h5>Frontend developer</h5>
-          <p>
-            Work with React and REST API
-          </p>
-        </div>
-      </div>
-
-      
+          <tr>
+            <td>
+              <img src="rayanesh.png" alt="rayanesh"></img>
+            </td>
+            <td>
+              <p>September 2022 - Now</p>
+              <h5>Frontend developer</h5>
+              <p>Work with React and REST API</p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
     </AnimationOnScroll>
   );
 };
