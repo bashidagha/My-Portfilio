@@ -38,6 +38,19 @@ const Exprience = () => {
         </div>
       </div>
 
+
+      <div className={classes["exprience-item"]}>
+        <img src="rayanesh.png" alt="rayanesh"></img>
+
+        <div>
+          <p>September 2022 - Now</p>
+          <h5>Frontend developer</h5>
+          <p>
+            Work with React and REST API
+          </p>
+        </div>
+      </div>
+
       
     </AnimationOnScroll>
   );
