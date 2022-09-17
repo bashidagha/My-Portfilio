@@ -24,10 +24,7 @@ const Projects = () => {
                 <div>
                   <img src={project.photo} alt={project.title}></img>
 
-                  {project.hash.map((hash) => (
-                    <span key={Math.random()}>#{hash}&nbsp;&nbsp;</span>
-                  ))}
-
+                  <p className={classes.project__hashs}>{project.hash.map((hash) => `#${hash} `)}</p>
                   <h3>{project.title}</h3>
                   <p>{project.description}</p>
                 </div>

@@ -83,6 +83,11 @@
   line-height: 20px;
 }
 
+.project__hashs{
+  line-height: 25px !important;
+  margin-top: 1rem;
+}
+
 .project__links {
   display: flex;
   justify-content: space-between;
