@@ -10,7 +10,7 @@ const PersonalInfo = () => {
       <div className={classes.info}>
         <div className={classes.firstinfo}>
           <h1>Farshid Karimi</h1>
-          <p className={classes.role}>Front-end developer</p>
+          <p className={classes.role}>Fullstack developer</p>
         </div>
 
         <p className={classes.email}>farshidk49@gmail.com</p>

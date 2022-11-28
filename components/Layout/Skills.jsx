@@ -16,14 +16,7 @@ const Skills = (props) => {
         </div>
 
         <div className={`${classes["skill-item"]}`}>
-          <p>React Router/ hooks</p>
-          <div className={`${classes.progress}`}>
-            <div />
-          </div>
-        </div>
-
-        <div className={`${classes["skill-item"]}`}>
-          <p>HTML / CSS / JS / TS</p>
+          <p>HTML / CSS / JS / TS / Sass</p>
           <div className={`${classes.progress}`}>
             <div />
           </div>
@@ -37,21 +30,14 @@ const Skills = (props) => {
         </div>
 
         <div className={`${classes["skill-item"]}`}>
+          <p>Bootstrap / Mui</p>
+          <div className={`${classes.progress}`}>
+            <div />
+          </div>
+        </div>
+
+        <div className={`${classes["skill-item"]}`}>
           <p>Nextjs</p>
-          <div className={`${classes.progress}`}>
-            <div />
-          </div>
-        </div>
-
-        <div className={`${classes["skill-item"]}`}>
-          <p>Sass</p>
-          <div className={`${classes.progress}`}>
-            <div />
-          </div>
-        </div>
-
-        <div className={`${classes["skill-item"]}`}>
-          <p>Bootstrap</p>
           <div className={`${classes.progress}`}>
             <div />
           </div>
@@ -60,35 +46,43 @@ const Skills = (props) => {
     );
   };
 
-
   const ComponentB = () => {
+    return (
+      <>
+        <h4>Back end</h4>
+
+        <div className={`${classes["skill-item"]}`}>
+          <p>Fastapi</p>
+          <div className={`${classes.progress}`}>
+            <div />
+          </div>
+        </div>
+
+        <div className={`${classes["skill-item"]}`}>
+          <p>Django</p>
+          <div className={`${classes.progress}`}>
+            <div />
+          </div>
+        </div>
+
+        
+        <div className={`${classes["skill-item"]}`}>
+          <p>Nodejs</p>
+          <div className={`${classes.progress}`}>
+            <div />
+          </div>
+        </div>
+      </>
+    );
+  };
+
+  const ComponentC = () => {
     return (
       <>
         <h4>Other Skills</h4>
 
         <div className={`${classes["skill-item"]}`}>
-          <p>Java / Android</p>
-          <div className={`${classes.progress}`}>
-            <div />
-          </div>
-        </div>
-
-        <div className={`${classes["skill-item"]}`}>
-          <p>C / C++</p>
-          <div className={`${classes.progress}`}>
-            <div />
-          </div>
-        </div>
-
-        <div className={`${classes["skill-item"]}`}>
-          <p>Embedded Systems</p>
-          <div className={`${classes.progress}`}>
-            <div />
-          </div>
-        </div>
-
-        <div className={`${classes["skill-item"]}`}>
-          <p>Linux </p>
+          <p>LPIC </p>
           <div className={`${classes.progress}`}>
             <div />
           </div>
@@ -109,14 +103,21 @@ const Skills = (props) => {
         </div>
 
         <div className={`${classes["skill-item"]}`}>
-          <p>Nodejs (Backend)</p>
+          <p>C / C++</p>
           <div className={`${classes.progress}`}>
             <div />
           </div>
         </div>
 
         <div className={`${classes["skill-item"]}`}>
-          <p>Scrum Master</p>
+          <p>Embedded Systems</p>
+          <div className={`${classes.progress}`}>
+            <div />
+          </div>
+        </div>
+
+        <div className={`${classes["skill-item"]}`}>
+          <p>Java / Android</p>
           <div className={`${classes.progress}`}>
             <div />
           </div>
@@ -132,9 +133,17 @@ const Skills = (props) => {
       initiallyVisible={true}
       className={`tile ${classes.skills}`}
     >
-      {props.type!=="2" && <ComponentA/>}
-      {props.type==="2" && <div className={`${classes["other__skills"]}`}><ComponentB/></div>}
-      
+      {props.type === "1" && <ComponentA />}
+      {props.type === "2" && (
+        <div className={`${classes["backend__skills"]}`}>
+          <ComponentB />
+        </div>
+      )}
+      {props.type === "3" && (
+        <div className={`${classes["other__skills"]}`}>
+          <ComponentC />
+        </div>
+      )}
     </AnimationOnScroll>
   );
 };

@@ -48,8 +48,8 @@ const Exprience = () => {
             </td>
             <td>
               <p>September 2022 - Now</p>
-              <h5>Frontend developer</h5>
-              <p>Work with React and REST API</p>
+              <h5>Fullstack developer</h5>
+              <p>React and Fastapi and Django</p>
             </td>
           </tr>
         </tbody>

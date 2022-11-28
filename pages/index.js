@@ -16,8 +16,9 @@ const Home = () => {
 
       <div className="contents">
         <div className="side1">
-          <Skills />
+          <Skills type="1"/>
           <Skills type="2"/>
+          <Skills type="3"/>
           
         </div>
 
