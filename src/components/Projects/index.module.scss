@@ -1,0 +1,145 @@
+.projects__header p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: var(---color-semi-dark);
+  /* margin-bottom: 3rem; */
+}
+
+.header__item {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.header__item a {
+  border: 1px solid #4f4f4f;
+  border-radius: 12px;
+  padding: 0.8rem 2.2rem;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  color: var(---color-semi-dark);
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.page {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: var(---color-semi-dark);
+  border: 1px solid #4f4f4f;
+  border-radius: 4px;
+  text-align: center;
+  width: 3.6rem;
+  height: 3.6rem;
+  display: inline-block;
+  padding: 1rem;
+}
+
+.page + .page {
+  margin-left: 1rem;
+}
+
+.pagination {
+  text-align: center;
+}
+
+.project__item img {
+  border-radius: 12px;
+  max-height: 20rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.project__item {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  justify-content: space-between;
+}
+
+.project__item span {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(---color-semi-dark);
+}
+
+.project__item h3 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+  color: var(---color-dark);
+}
+
+.project__item p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.project__hashs{
+  line-height: 25px !important;
+  margin-top: 1rem;
+}
+
+.project__links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project__links a {
+  border-radius: 12px;
+  border: 1px solid #2f80ed;
+  color: #2f80ed;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  width: 47%;
+  text-align: center;
+  padding: 1.5rem 0;
+  margin-bottom: 1rem;
+}
+
+.project__links a:nth-child(1) {
+  color: white;
+  background-color: #2f80ed;
+}
+
+.pagination {
+  margin-bottom: 3rem;
+}
+
+.active {
+  color: white;
+  background-color: #2f80ed;
+  border-color: white;
+}
+
+.disable{
+  pointer-events: none;
+}
+
+@media (min-width: 700px) {
+  .projects__container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .pagination {
+    text-align: right;
+  }
+
+  .project__item {
+    width: 33%;
+  }
+
+  .project__item img {
+    height: 20rem;
+  }
+}

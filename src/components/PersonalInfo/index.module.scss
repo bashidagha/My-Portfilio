@@ -1,0 +1,65 @@
+.card {
+  margin-top: 4rem;
+}
+
+.card img {
+  border-radius: 3rem;
+  max-width: 20rem;
+}
+
+.card h1 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: var(---color-semi-dark);
+}
+
+.role {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: var(---color-gray);
+}
+
+.info {
+  width: 100%;
+}
+
+.email {
+  font-weight: 500;
+  display: inline-block;
+  font-size: 18px;
+  line-height: 22px;
+  color: var(---color-semi-dark);
+  margin: 2rem 0;
+}
+
+.email::before {
+  font-family: "Bootstrap-icons";
+  content: "\F32C";
+  padding-right: 1rem;
+  vertical-align: middle;
+}
+
+@media (min-width: 700px) {
+  .card {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .info {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .firstinfo,
+  .email {
+    width: 50%;
+  }
+
+  .email {
+    text-align: end;
+    margin: 0;
+  }
+}

@@ -1,0 +1,53 @@
+.exprience {
+    align-self: flex-start;
+  }
+  
+  .exprience h4 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: var(---color-semi-dark);
+    margin-bottom: 5rem;
+  }
+  
+  .exprience-item p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  
+  .exprience-item tr td:nth-child(1) {
+    text-align: center;
+  }
+  
+  .exprience-item tr:nth-child(1) td:nth-child(2) {
+    padding-top: 0;
+  }
+  
+  .exprience-item tr td:nth-child(2) {
+    padding-left: 5%;
+    padding-top: 2.1rem;
+  }
+  
+  .exprience-item h5 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(---color-dark);
+    margin: 1rem 0 2rem 0;
+  }
+  
+  .exprience-item img {
+    margin-top: 1rem;
+    max-width: 120px;
+    max-height: 100px;
+    align-self: flex-start;
+    vertical-align: middle;
+  }
+  
+  @media (min-width: 700px) {
+    .exprience-item {
+      gap: 2rem;
+    }
+  }
+  
